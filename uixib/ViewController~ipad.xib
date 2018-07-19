@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="uixib" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="hhE-ps-m4L" id="2cY-J0-4Ua"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="hhE-ps-m4L">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAY HI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE4-TD-Tza">
+                    <rect key="frame" x="0.0" y="0.0" width="292.5" height="768"/>
+                    <color key="backgroundColor" red="0.1019607843" green="0.59215686270000001" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="highlightedColor" red="0.1019607843" green="0.59215686270000001" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAY HELLO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9S-8R-ops">
+                    <rect key="frame" x="292.5" y="0.0" width="731.5" height="768"/>
+                    <color key="backgroundColor" red="0.27058823529999998" green="0.70980392160000005" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="highlightedColor" red="0.27058823529999998" green="0.70980392160000005" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="H9S-8R-ops" firstAttribute="width" secondItem="hhE-ps-m4L" secondAttribute="width" multiplier="2.5/3.5" id="70e-jJ-Ij3"/>
+                <constraint firstItem="VE4-TD-Tza" firstAttribute="width" secondItem="hhE-ps-m4L" secondAttribute="width" multiplier="1/3.5" id="EZ5-vg-rFX"/>
+                <constraint firstItem="VE4-TD-Tza" firstAttribute="height" secondItem="hhE-ps-m4L" secondAttribute="height" id="OC8-Pe-ext"/>
+                <constraint firstItem="H9S-8R-ops" firstAttribute="height" secondItem="hhE-ps-m4L" secondAttribute="height" id="a7F-kU-5iU"/>
+                <constraint firstAttribute="trailing" secondItem="H9S-8R-ops" secondAttribute="trailing" id="buh-qo-yq6"/>
+                <constraint firstItem="VE4-TD-Tza" firstAttribute="top" secondItem="hhE-ps-m4L" secondAttribute="top" id="dYy-Ps-ukD"/>
+                <constraint firstItem="VE4-TD-Tza" firstAttribute="leading" secondItem="hhE-ps-m4L" secondAttribute="leading" id="fYU-rf-l3D"/>
+                <constraint firstItem="H9S-8R-ops" firstAttribute="top" secondItem="hhE-ps-m4L" secondAttribute="top" id="zet-xI-eQn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="eb4-05-3dJ"/>
+            <point key="canvasLocation" x="175" y="-587"/>
+        </view>
+    </objects>
+</document>
